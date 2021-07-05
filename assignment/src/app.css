@@ -1,0 +1,12 @@
+body {
+  box-sizing: border-box;
+}
+form {
+  margin-top: 2rem;
+}
+.gridContainer {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 1rem;
+}
